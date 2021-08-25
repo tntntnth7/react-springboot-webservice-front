@@ -11,7 +11,7 @@ function App() {
   }
 
   // 첫 번째 렌더링을 마친 후 실행
-  /*
+  
   useEffect(
       () => {
         axios({
@@ -22,16 +22,7 @@ function App() {
         })
       }, []
   );
-  */
-
-  useEffect(() => {
-    fetch('/user')
-    .then(response => response.text())
-    .then(message => {
-    setMessage(message);
-    });
-    },[]);
-
+  
   return (
     <div className="App">
       <header className="App-header">
