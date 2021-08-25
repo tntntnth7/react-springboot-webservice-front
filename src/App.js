@@ -18,6 +18,7 @@ function App() {
             method: 'GET'
         }).then((res) => {
             callback(res.data);
+            console.log(res.data);
         })
       }, []
   );
