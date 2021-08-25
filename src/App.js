@@ -14,18 +14,16 @@ function App() {
   useEffect(
       () => {
         axios({
-            url: '/',
+            url: '/user',
             method: 'GET'
         }).then((res) => {
             callback(res.data);
-            console.log(res.data);
         })
       }, []
   );
 
   return (
     <div className="App">
-    <h2>Heojun & Yerim</h2> 
     <header className="App-header">
         {testStr}
     </header>
