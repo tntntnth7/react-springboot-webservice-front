@@ -6,7 +6,7 @@ function App() {
   const [ testStr, setTestStr ] = useState('');
 
   // 변수 초기화
-  function callback(str) {
+  function callback(str) {    
     setTestStr(str);
   }
 
@@ -24,8 +24,9 @@ function App() {
 
   return (
     <div className="App">
+    <h2>Heojun & Yerim</h2> 
     <header className="App-header">
-        {testStr}
+        {/* {testStr} */}
     </header>
 </div>
   );
