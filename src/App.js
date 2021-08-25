@@ -26,7 +26,7 @@ function App() {
     <div className="App">
     <h2>Heojun & Yerim</h2> 
     <header className="App-header">
-        {/* {testStr} */}
+        {testStr}
     </header>
 </div>
   );
